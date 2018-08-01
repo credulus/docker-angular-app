@@ -45,3 +45,9 @@ docker stop <container name>
 //create htpasswd
 perl -le 'print crypt("password", "METHOD_SHA512")'
 ```
+### Push a docker image to docker hub repository
+```
+docker login --username=<username> --email=<your emailid>
+docker tag <image-id> <docker-hub-username>/<local-image-name>:<tag-name>
+docker push <docker-hub-username>/<local-image-name>
+```
