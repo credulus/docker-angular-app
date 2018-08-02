@@ -51,3 +51,13 @@ docker login --username=<username> --email=<your emailid>
 docker tag <image-id> <docker-hub-username>/<local-image-name>:<tag-name>
 docker push <docker-hub-username>/<local-image-name>
 ```
+
+### Run docker compose
+```
+//run docker compose 
+docker-compose up
+
+//run docker compose as daemon
+docker-compose up -d
+
+```
