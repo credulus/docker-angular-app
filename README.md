@@ -60,4 +60,6 @@ docker-compose up
 //run docker compose as daemon
 docker-compose up -d
 
+//view container running
+docker-compose ps
 ```
